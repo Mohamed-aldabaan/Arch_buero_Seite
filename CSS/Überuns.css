@@ -1,0 +1,77 @@
+body{
+  margin:0px;
+  display: block;
+  background-image: url(../bilder/Hintergrund.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment:fixed;
+}
+
+.container {  font-size: 20px;
+}
+a{
+  
+  text-decoration: none;
+  padding: 10px;
+}
+
+
+.container a:hover{
+  background-color: rgb(232, 29, 73);
+  color: chartreuse;
+}
+.links{background-color: rgb(255, 255, 255); display: flex; align-items: center; position: fixed; right: 0px; left: 0px; justify-content: space-between;
+}
+.links h1{position: relative; left: 80px;}
+table{margin: auto; 
+background-color: rgb(255, 255, 255);
+}
+
+h2{
+font-size: 1.7rem;
+text-align: center;
+text-decoration: underline;
+}
+
+.profilbild {
+  display: flex;
+  justify-content: center;
+  margin-left: 17%;
+  width: 1000px;
+  flex-wrap: wrap;
+  gap: 10px;
+  
+  text-align: center;
+
+}
+
+.profilbild  img {width: 300px;
+  height: 300px;
+  border-radius: 50%;
+
+}
+
+.profil{
+margin: auto;
+width: 55%;
+text-align: center;
+font-size: 1.2rem;
+background-color: rgba(240, 248, 255, 0.627);
+border-radius: 30px;
+
+}
+
+ion-icon{font-size: 40px;
+  margin-left: 0px;
+  color: blue;
+ }
+ 
+
+ .footer{margin-top: 10%;margin-bottom: 20px; background-color: rgba(43, 42, 42, 0.799);  display: flex; align-items: center; justify-content: space-between;
+}
+ .footer-head{ font-size: 20px; color: aliceblue; margin-left: 80px;  
+  
+ }
+ .footer-mitte{font-size: 20px; color: aliceblue; margin-right: 180px;  
+}
+ .footer-end{font-size: 20px;  color: aliceblue; margin-right: 10px;}

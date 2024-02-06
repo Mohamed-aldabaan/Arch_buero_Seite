@@ -1,0 +1,70 @@
+body {
+  margin: 0px;
+  background-image: url(../Bilder/Hintergrund.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.container {
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+  padding: 10px;
+}
+
+.container a:hover {
+  background-color: rgb(232, 29, 73);
+  color: chartreuse;
+}
+.links {
+  background-color: rgba(156, 207, 114, 0.749);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+}
+.links h1 {
+  position: relative;
+  left: 80px;
+}
+
+.text {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: large;
+  background-color: rgba(249, 251, 252, 0.51);
+}
+
+ion-icon {
+  font-size: 40px;
+  margin-left: 0px;
+  padding-left: 0px;
+  color: blue;
+}
+
+.footer {
+  margin-top: 10%;
+  margin-bottom: 20px;
+  background-color: rgba(43, 42, 42, 0.799);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-head {
+  font-size: 20px;
+  color: aliceblue;
+  margin-left: 80px;
+}
+.footer-mitte {
+  font-size: 20px;
+  color: aliceblue;
+  margin-right: 180px;
+}
+.footer-end {
+  font-size: 20px;
+  color: aliceblue;
+  margin-right: 10px;
+}

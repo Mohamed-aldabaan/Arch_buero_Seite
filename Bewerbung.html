@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bewerbung</title>
+</head>
+<style>
+h1{ text-align: center;
+margin-top: 80px;}
+ 
+  .Bewerbung {text-align: center;}
+  
+
+  input[type=text],
+input[type=email]{
+  width: 400px;}
+
+  textarea[name=nachricht]{width: 400px;
+  height: 200px;}
+</style>
+
+<body>
+  <h1>Bewerb Dich gern bei uns!</h1>
+  <div  class="Bewerbung">
+  <form action="">
+   <label for="">Vorname</label> <br>
+   <input type="text" name="Vorname" placeholder="Bitte Vorname eintragen"><br><br>
+
+   <label for="">Nachname</label><br>
+   <input type="text" name="Nachname" placeholder="Bitte Name eintragen" required><br><br>
+
+   <label for="">Email-Adresse</label><br>
+   <input type="email" name="email" required><br><br>
+
+   <label for="">Unterlagen Hochladen:</label><br>
+   <input type="file" name="file"><br><br>
+   
+
+   <label for="">Nachricht</label><br>
+   <textarea name="nachricht" ></textarea><br><br>
+
+   <label for="">Dein Geburtstag</label><br>
+   <input type="date" name="geburtstag"><br><br>
+ 
+   <input type="checkbox" name="news" id="news">
+   <label for="news">Newsletter</label><br><br>
+
+   <input type="checkbox" name="news" id="news" required>
+   <label for="">Ich bin kein Robotert</label><br><br>
+   
+   <input type="submit" value="ABSENDEN"><br><br>
+
+   
+
+  </div>
+   
+
+
+  </form>
+  
+
+  
+</body>
+</html>
