@@ -42,8 +42,9 @@ Die Fußzeile enthält Kontaktinformationen, Links zu unseren Social-Media-Profi
 
 1. Repository klonen:
     ```sh
-    git clone https://github.com/dein-benutzername/architekten-webseite.git
+    git clone git@github.com:Mohamed-aldabaan/Arch_buero_Seite.git
     ```
+    
 2. In das Projektverzeichnis wechseln:
     ```sh
     cd architekten-webseite
