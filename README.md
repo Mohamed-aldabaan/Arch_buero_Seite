@@ -1,5 +1,9 @@
 # M&M Architekten - Startseite
 
+## Live-Demo
+
+Schau dir die Live-Demo der Startseite [hier](https://arch-buero-seite.vercel.app) an.
+
 ## Überblick
 
 Dies ist die Startseite der Website von M&M Architekten. Die Seite bietet Informationen über unsere Architekturleistungen, unser Team und Kontaktmöglichkeiten.
@@ -51,18 +55,6 @@ Die Fußzeile enthält Kontaktinformationen, Links zu unseren Social-Media-Profi
     ```
 3. `index.html` in deinem bevorzugten Webbrowser öffnen.
 
-## Live-Demo
 
-Schau dir die Live-Demo der Startseite [hier](https://arch-buero-seite.vercel.app) an.
 
-## Kontakt
 
-Du kannst uns gerne per E-Mail unter [mail@example.com](mailto:mail@example.com) erreichen oder uns auf [Facebook](https://facebook.com) und [Instagram](https://instagram.com) folgen.
-
-## Lizenz
-
-Dieses Projekt ist unter der MIT-Lizenz lizenziert – siehe die [LICENSE](LICENSE)-Datei für Details.
-
-### Hinweis
-
-Wenn du einen Link so anzeigen möchtest, dass er als `[name](link)` aussieht, schreibe ihn einfach in Backticks: \``[name](link)`\`.
